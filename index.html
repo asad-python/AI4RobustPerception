@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Robust Perception</title>
+    <link
+      rel="shortcut icon"
+      href="https://sidcupfamilygolf.com/wp-content/themes/puttosaurus/favicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="nav">
+      <img
+        src="./Assests/IJCAI_Bremen_Logo.png"
+        alt=""
+      />
+      <a href="#page1"><h4>Home</h4></a>
+      <a href="#about-us"><h4>About Workshop</h4></a>
+      <a href="#call-for-papers"><h4>Call for Papers</h4></a>
+      <a href="#page3"><h4>Schedule</h4></a>
+      <a href="#page4"><h4>Organizers</h4></a>
+      <a href="#footer"><h4>Program Committee</h4></a>
+    </div>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <video
+      autoplay
+      loop
+      muted
+      playsinline
+      src="./Assests/scene5.mp4"
+    ></video>
+    <div id="main">
+      <div id="page1">
+        <h1>AI4RobustPerception</h1>
+        <h2>  Advancing Robust Autonomous Driving through Out-of-Distribution Detection,<br> Multimodal Perception, and Foundation Models</h2>
+        <p>
+          In conjunction with the 35th International Joint Conference on Artificial Intelligence IJCAI-ECAI 2026 
+        </p>
+        <p class="date-location">
+          August 15-17, 2026 | Bremen, Germany
+        </p>
+        <div class="hero-buttons">
+          <button class="btn-dull">Half day Workshop</button>
+          <button class="btn-dull">In -Person</button>
+          <button class="btn-highlight">1st Edition</button>
+        </div>
+        <!-- <div id="arrow">
+          <a href="Assests/IJCAI_ECAI WorkshopProposal (4).pdf" download>
+            <i class="ri-arrow-down-line"></i>
+          </a>
+        </div> -->
+      </div>
+      <div id="page2">
+        <div id="scroller">
+
+<!-- <div id="scroller-in">
+  <h4>AI</h4>
+  <h4>ROBUST PERCEPTION</h4>
+  <h4>AUTONOMOUS DRIVING</h4>
+  <h4>SENSOR FUSION</h4>
+  <h4>3D PERCEPTION</h4>
+</div>
+
+<div id="scroller-in">
+  <h4>AI</h4>
+  <h4>ROBUST PERCEPTION</h4>
+  <h4>AUTONOMOUS DRIVING</h4>
+  <h4>SENSOR FUSION</h4>
+  <h4>3D PERCEPTION</h4>
+</div> -->
+
+</div>
+        <div id="about-us">
+          <!-- <img
+            src="./Assests/Conference.jpg"
+            alt=""
+          /> -->
+          <div id="about-us-in">
+            <h3>ABOUT WORKSHOP</h3>
+            <p>
+              AI-based perception for autonomous driving is an important topic in both 
+academia and industry as it sits at the boundary between state-of-the-art learning methods and 
+safety-critical real-world deployment. This workshop aims to bring together work on making 
+perception more reliable under real conditions including robustness towards anomalies, out-ofdistribution (OOD) situations, stronger 3D perception including bird’s eye view (BEV) projection
+and depth estimation, and evaluation practices that better reflect safety and deployment needs.
+ We also welcome work on multimodal perception and sensor fusion (e.g., camera/LiDAR/radar), and 
+recent directions such as foundation models and vision-language models for autonomous driving 
+perception. The theme fits well within IJCAI/ECAI’s scope by connecting core AI challenges 
+(generalization, uncertainty, robustness, scalable learning, and evaluation) with a high impact 
+application domain where these challenges are clearly visible.
+Autonomous driving is also a context where perception models can look strong on 
+benchmark test sets but still show reliability problems after deployment. Performance can drop 
+with changes in location, weather, lighting, traffic patterns, sensor noise, partial sensor failure, or 
+calibration and rig changes. These issues are strongly related to safety, because failure often comes 
+from distribution shifts, long-tail events, and poorly captured corner cases rather than average 
+conditions. As a result, progress in this area needs not only new models, but also clearer problem 
+definitions, better test approaches, and more informative metrics.
+We invite contributions across a broad range of perception tasks and settings, including robust 
+detection, tracking, segmentation, occupancy and mapping, OOD/anomaly detection and openworld perception, 3D perception and BEV-centric methods, depth estimation and depth completion 
+for driving, and learning methods that improve robustness such as self-supervision, test-time 
+adaptation, and data-centric pipelines (including synthetic data and targeted long-tail collection). 
+We also encourage work on rig invariance, sensor fusion, calibration and drift, and practical 
+deployment monitoring, because these are common sources of real-world performance drops that 
+are often underexplored in academic evaluations. Overall, the workshop aims to connect these 
+research directions into a shared discussion on how to build and evaluate perception systems for 
+real driving conditions, aligning with IJCAI/ECAI’s focus on core AI questions.
+            </p>
+          </div>
+          <!-- <img
+            src="./Assests/Best 5 AI Tools.jpg"
+            alt=""
+          /> -->
+        </div>
+        <div id="call-for-papers">
+
+  <h2>CALL FOR PAPERS</h2>
+
+  <p class="cfp-intro">
+    We invite submissions on research related to AI methods for robust
+    perception in autonomous driving systems. The workshop aims to bring
+    together researchers and practitioners working on reliable perception
+    under real-world conditions.
+  </p>
+
+
+  <div class="cfp-grid">
+
+    <div class="cfp-box">
+
+      <h3>Workshop Topics</h3>
+
+      <ul>
+  <li>Multimodal perception & sensor fusion</li>
+  <li>Out-of-distribution (OOD), domain adaption, and obstacle detection in autonomous vehicles (AVs)</li>
+  <li>3D & Bird’s Eye View perception in AVs</li>
+  <li>Foundation models for driving perception</li>
+  <li>Vision Language Models in autonomous vehicles</li>
+  <li>Safety validation metrics & evaluation protocols</li>
+  <li>Rig invariance, calibration, and real-world deployment drift</li>
+  <li>New datasets & metrics for autonomous driving</li>
+  <li>Depth estimation (robustness, corruptions & adverse weather/lighting)</li>
+  <li>Driver monitoring systems</li>
+</ul>
+
+    </div>
+
+
+   <div class="cfp-box">
+
+  <h3>Submission Guidelines</h3>
+
+  <ul>
+    <li>Submissions should be in PDF format following the official Author Guidelines.</li>
+    <li>Submissions must be original, unpublished work with no concurrent submissions.</li>
+    <li>Papers should be anonymized for double-blind review.</li>
+    <li>Optional supplementary materials (videos, images, code) are allowed.</li>
+    <li>Accepted papers will be presented as oral, spotlight, or poster presentations.</li>
+  </ul>
+
+  <a class="cfp-button"
+     href="https://www.ijcai.org/authors_kit"
+     target="_blank">
+     View IJCAI Author Guidelines
+  </a>
+
+</div>
+   <div class="cfp-box">
+
+  <h3>Important Dates</h3>
+
+  <ul>
+    <li>14 May 2026 — Abstract Submission</li>
+    <li>16 May 2026 — Full Paper Submission</li>
+    <li>5 June 2026 — Acceptance / Rejection Notification</li>
+    <li>25 June 2026 — Camera Ready Paper</li>
+    <li>26 June 2026 — Payment Confirmation Deadline</li>
+    <li>16 August 2026 — Workshop Date</li>
+  </ul>
+
+</div>
+  </div>
+
+</div>
+
+      <div id="page3">
+
+        <h2 class="section-title">Workshop Schedule</h2>
+
+        <div class="schedule">
+          <p>
+            09:00 – 09:10 Opening Remarks<br>
+            09:10 – 09:50 Keynote Talk 1<br>
+            09:50 – 10:30 Oral Session 1 (2 Oral Presentations)<br>
+            10:30 – 11:00 Coffee Break & Poster Session<br>
+            11:00 – 11:40 Keynote Talk 2<br>
+            11:40 – 12:20 Oral Session 2 (2 Oral Presentations)<br>
+            12:20 – 12:30 Closing Remarks<br>
+          </p>
+        </div>
+
+<img
+          id="colon1"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
+          alt=""
+        />
+        <img
+          id="colon2"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
+          alt=""
+        />
+</div>
+      <!-- <div id="page4">
+        <h1>ORGANIZERS</h1>
+        <div id="organizers-cards">
+          <div class="organizer-card" id="card-michael">
+            <div class="overlay">
+              <h4>Prof Michael Madden</h4>
+            </div>
+          </div>
+          <div class="organizer-card" id="card-ihsan">
+            <div class="overlay">
+              <h4>Dr Ihsan Ullah</h4>
+            </div>
+          </div>
+          <div class="organizer-card" id="card-ganesh">
+            <div class="overlay">
+              <h4>Mr Ganesh Sistu</h4>
+            </div>
+          </div>
+          <div class="organizer-card" id="card-valentina">
+            <div class="overlay">
+              <h4>Prof <br>Valentina Donzella</h4>
+            </div>
+          </div>
+          <div class="organizer-card" id="card-asad">
+            <div class="overlay">
+              <h4>Mr Muhammad Asad</h4>
+            </div>
+          </div>
+          <div class="organizer-card" id="card-adeel">
+            <div class="overlay">
+              <h4>Mr Muhammad <br>Adeel Hafeez</h4>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div id="page4">
+  <h1>INVITED SPEAKERS</h1> <div id="organizers-cards">
+    <div class="organizer-card">
+      <div class="img-wrapper">
+        <img src="./Assests/MM-3 (2).png" alt="Michael">
+      </div>
+      <div class="card-info">
+        <h3>Prof Michael Madden</h3>
+        <p class="role">Lead Organizer</p>
+        <p class="univ">University of Galway</p>
+      </div>
+    </div>
+
+    <div class="organizer-card featured">
+      <div class="img-wrapper">
+        <img src="./Assests/ihsan-pp (1).jpg" alt="Ihsan">
+      </div>
+      <div class="card-info">
+        <h3>Dr Ihsan Ullah</h3>
+        <p class="role">Professor, Department Head</p>
+        <p class="univ">NUI Galway / Insight Centre</p>
+      </div>
+    </div>
+
+    <div class="organizer-card">
+      <div class="img-wrapper">
+        <img src="./Assests/ganesh (1).png" alt="Ganesh">
+      </div>
+      <div class="card-info">
+        <h3>Mr Ganesh Sistu</h3>
+        <p class="role">Technical Chair</p>
+        <p class="univ">Valeo Vision Systems</p>
+      </div>
+    </div>
+    <div class="organizer-card">
+      <div class="img-wrapper">
+        <img src="./Assests/asadasad.jpg" alt="Asad">
+      </div>
+      <div class="card-info">
+        <h3>Mr Muhammad Asad</h3>
+        <p class="role">Technical Chair</p>
+        <p class="univ">Valeo Vision Systems</p>
+      </div>
+    </div>
+     <div class="organizer-card">
+      <div class="img-wrapper">
+        <img src="./Assests/adeel.jpg" alt="Adeel">
+      </div>
+      <div class="card-info">
+        <h3>Mr Muhammad Adeel Hafeez</h3>
+        <p class="role">Technical Chair</p>
+        <p class="univ">Valeo Vision Systems</p>
+      </div>
+    </div>
+     <div class="organizer-card">
+      <div class="img-wrapper">
+        <img src="./Assests/Valentina.jpeg" alt="Valentina">
+      </div>
+      <div class="card-info">
+        <h3>Prof Valentina Donzella</h3>
+        <p class="role">Technical Chair</p>
+        <p class="univ">Valeo Vision Systems</p>
+      </div>
+    </div>
+  </div>
+</div>
+   
+
+      <div id="footer">
+        <img
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-footer.svg"
+          alt=""
+        />
+        <div id="f1">
+          <img
+            src="./Assests/IJCAI_Bremen_Logo.png"
+            alt=""
+          />
+        </div>
+        
+        <div id="f4">
+          <h4>
+Contact  
+hsan.ullah@universityofgalway.ie
+</h4>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html> 
